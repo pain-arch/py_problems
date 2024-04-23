@@ -122,3 +122,16 @@ import random
 # Using Modules
 print(math.pi)
 print(random.randint(1, 10))
+
+# File Handling
+
+# Writing to a file
+file = open("file.txt", "w")
+file.write("Hello, World!")
+file.close()
+
+# Reading from a file
+file = open("file.txt", "r")
+content = file.read()
+print(content)
+file.close()
