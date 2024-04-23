@@ -33,9 +33,21 @@ var_11 = b"Hello"   # Bytes
 var_12 = bytearray(10) # Bytearray
 var_13 = memoryview(bytes(5)) # Memoryview
 
-
-
 # 3. Operators
+
+# Arithmetic Operators
+# +, -, *, /, %, **, //
+add = 10 + 5
+sub = 10 - 5
+mul = 10 * 5
+div = 10 / 5
+mod = 10 % 5
+exp = 10 ** 5
+fdiv = 10 // 5
+
+
+
+
 # 4. Control Structures
 # 5. Functions
 # 6. Classes
