@@ -72,3 +72,29 @@ while i < 10:
     print(i)
     i += 1
     
+# Functions
+
+def add(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+def mul(a, b):
+    return a * b
+
+def div(a, b):
+    return a / b
+
+def mod(a, b):
+    return a % b
+
+def exp(a, b):
+    return a ** b
+
+def fdiv(a, b):
+    return a // b
+
+add(10, 5)
+sub(10, 5)
+mul(10, 5)
