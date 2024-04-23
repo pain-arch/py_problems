@@ -112,3 +112,13 @@ class Person:
 person1 = Person("John", 25)
 person1.greet()
 
+
+# Modules
+
+# Importing Modules
+import math
+import random
+
+# Using Modules
+print(math.pi)
+print(random.randint(1, 10))
