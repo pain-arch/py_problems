@@ -49,5 +49,26 @@ fdiv = 10 // 5
 
 
 # 4. Control Structures
-# 5. Functions
-# 6. Classes
+
+# If 
+a = 10
+b = 20
+
+if a > b:
+    print("a is greater than b")
+elif a < b:
+    print("a is less than b")
+else:
+    print("a is equal to b")
+
+# Loops
+# For Loop
+for i in range(10):
+    print(i)
+
+# While Loop
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+    
